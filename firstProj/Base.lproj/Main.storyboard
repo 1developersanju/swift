@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="firstProj" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="6aG-Y0-cHG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="7C7-qL-nGx" userLabel="Cards and Button Stack View">
+                                <rect key="frame" x="62" y="357" width="290" height="232"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="el6-I7-0S6" userLabel="Cards Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="170"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card12" translatesAutoresizingMaskIntoConstraints="NO" id="YAk-tm-AzG">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card2" translatesAutoresizingMaskIntoConstraints="NO" id="UER-3z-p1K">
+                                                <rect key="frame" x="170" y="0.0" width="120" height="170"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zof-l2-7bG" userLabel="Deal Button">
+                                        <rect key="frame" x="104.33333333333334" y="201" width="81.666666666666657" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" image="dealbutton"/>
+                                        <connections>
+                                            <action selector="DealTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ue8-4J-RYX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5Bz-IC-2TV" userLabel="Label Stack View">
+                                <rect key="frame" x="33.666666666666657" y="619" width="347" height="105.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No. of times You pressed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4D-YR-pJj">
+                                        <rect key="frame" x="0.0" y="0.0" width="347" height="39.666666666666664"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZr-8p-gmf">
+                                        <rect key="frame" x="0.0" y="39.666666666666636" width="347" height="65.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uf7-kG-UL2">
+                                <rect key="frame" x="132" y="131.33333333333334" width="150" height="45.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6aG-Y0-cHG" secondAttribute="trailing" id="5Ec-BD-y8a"/>
+                            <constraint firstItem="5Bz-IC-2TV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7eM-t0-CNo"/>
+                            <constraint firstItem="6aG-Y0-cHG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="G1t-TH-uiy"/>
+                            <constraint firstAttribute="bottom" secondItem="6aG-Y0-cHG" secondAttribute="bottom" id="IFZ-M5-YIa"/>
+                            <constraint firstItem="6aG-Y0-cHG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cYD-hE-I30"/>
+                            <constraint firstItem="7C7-qL-nGx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cw7-hR-GWL"/>
+                            <constraint firstItem="Uf7-kG-UL2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dfy-pM-Jt0"/>
+                            <constraint firstItem="7C7-qL-nGx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="25" id="ead-v3-xgG"/>
+                            <constraint firstItem="7C7-qL-nGx" firstAttribute="top" secondItem="Uf7-kG-UL2" secondAttribute="bottom" constant="180" id="he1-wR-ZFk"/>
+                            <constraint firstItem="5Bz-IC-2TV" firstAttribute="top" secondItem="7C7-qL-nGx" secondAttribute="bottom" constant="30" id="l3a-fD-564"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LeftCardView" destination="YAk-tm-AzG" id="jsw-dg-SP1"/>
+                        <outlet property="PressedCountLabel" destination="CZr-8p-gmf" id="LxU-lh-Qtb"/>
+                        <outlet property="RightCardView" destination="UER-3z-p1K" id="Mol-pJ-x9W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="64.955357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="414" height="896"/>
+        <image name="card12" width="120" height="170"/>
+        <image name="card2" width="120" height="170"/>
+        <image name="dealbutton" width="81.666664123535156" height="31"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
