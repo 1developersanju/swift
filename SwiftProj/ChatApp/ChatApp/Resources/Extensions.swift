@@ -6,10 +6,10 @@
 //
 
 import Foundation
-import UIKit
+import UIKit 
 
 
-extension UIView {
+extension UIView{
     
     public var width: CGFloat {
         return self.frame.size.width

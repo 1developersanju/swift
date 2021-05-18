@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C400D37CE256CD1981D53D6F /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF219C85666EAAABC96E1683 /* Pods_ChatApp.framework */; };
 		DC4367122653832700F03190 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC4367112653832600F03190 /* GoogleService-Info.plist */; };
+		DC4367372653BAD000F03190 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4367362653BAD000F03190 /* DatabaseManager.swift */; };
 		DCDC141326515CC90041BE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDC141226515CC90041BE79 /* AppDelegate.swift */; };
 		DCDC141526515CC90041BE79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDC141426515CC90041BE79 /* SceneDelegate.swift */; };
 		DCDC141726515CC90041BE79 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDC141626515CC90041BE79 /* ConversationsViewController.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		627B5BF61D05B4A4E7ADF257 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4367112653832600F03190 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC4367362653BAD000F03190 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		DC8E17F09E768CC2BCFF6007 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		DCDC140F26515CC90041BE79 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDC141226515CC90041BE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				DCDC141226515CC90041BE79 /* AppDelegate.swift */,
 				DCDC141426515CC90041BE79 /* SceneDelegate.swift */,
 				DCE510672651995A00F4CDD4 /* Extensions.swift */,
+				DC4367362653BAD000F03190 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDC14342651642D0041BE79 /* LoginViewController.swift in Sources */,
+				DC4367372653BAD000F03190 /* DatabaseManager.swift in Sources */,
 				DCDC143C2651647D0041BE79 /* RegisterViewController.swift in Sources */,
 				DCDC1445265165460041BE79 /* NewConversationViewController.swift in Sources */,
 				DCDC141726515CC90041BE79 /* ConversationsViewController.swift in Sources */,
