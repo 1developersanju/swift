@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.0'
+
+target 'WengamArt' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WengamArt
+#  pod 'QR-Code-Scanner-iOS', '~> 1.0'
+#  pod 'QRCodeReader.swift', '~> 10.1.0'
+  pod 'SwiftQRScanner', :git => ‘https://github.com/vinodiOS/SwiftQRScanner’
+  
+end

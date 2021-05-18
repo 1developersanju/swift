@@ -1,0 +1,21 @@
+PODS:
+  - SwiftQRScanner (1.0.9)
+
+DEPENDENCIES:
+  - SwiftQRScanner (from `https://github.com/vinodiOS/SwiftQRScanner`)
+
+EXTERNAL SOURCES:
+  SwiftQRScanner:
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+CHECKOUT OPTIONS:
+  SwiftQRScanner:
+    :commit: 9eb7b0bb5397b596cbf1fcaa11636a197cc84132
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+SPEC CHECKSUMS:
+  SwiftQRScanner: e09dc7b549d0d7301cdca505d483665af8cda58e
+
+PODFILE CHECKSUM: 07702d67acc2161b63144c92b7426fd22bafe25a
+
+COCOAPODS: 1.10.0

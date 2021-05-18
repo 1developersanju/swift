@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030B5C626FC4894A11E2FAB719D638F2 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3277DB962FC5435ABDA103CDDD52B95F /* SquareView.swift */; };
+		05F8B6B49DEE30B16EC160E538E64D97 /* SwiftQRScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCD7FDCD98F5136097DEFE15E2253C /* SwiftQRScanner-dummy.m */; };
+		1DF7DE4630CB82E49DF3ED4B5A281DD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B0370C0172CADE12120E24C25922D2 /* CoreGraphics.framework */; };
+		22C1AD826457D518FAF99CA44562A6CE /* Pods-WengamArt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71132E695B3259B399E8529F13C85212 /* Pods-WengamArt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E1423A1D7D6A86A1CAD888EFBAF730 /* Pods-WengamArt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1658F269047A09B4992389BDAE932F /* Pods-WengamArt-dummy.m */; };
+		37FC0820E829908E6B267024EEF8BE36 /* SwiftQRScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7FE932D0D812C9272EFF84FD92D3C2 /* SwiftQRScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBBE7F674286F4AA1A5DF80E4F19F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E2A94A4965418C290F6E712F48B9BB /* Foundation.framework */; };
+		5A752B17F5CFFB70C8732E52CD8A7B93 /* SwiftQRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEB0CE9D44C176AF52CC3304F269C6 /* SwiftQRScanner.swift */; };
+		6160C4F277BB6E1DEE4EC488BFE94638 /* SwiftQRScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner.bundle */; };
+		A3358E096EDECAC43BEABF7440732E9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920BB2E2B772D5A8DA15A5E82113DECE /* UIKit.framework */; };
+		F3EAA7891EB1716A3A9F01DA6C149DD8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42983FD6161633B22A51F2E293609753 /* AVFoundation.framework */; };
+		F62F8AE734211DD4AF78CDD507C3465C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E2A94A4965418C290F6E712F48B9BB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4975BC01DD0B0731567CF10DB114E450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0DB8DEC07098E61E5DCC8EB28AEC2D7;
+			remoteInfo = "SwiftQRScanner-SwiftQRScanner";
+		};
+		D906D2BCF330B6A27577AD8A0E486A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09AD09335955FA1C740D6F0CDDE8C8DA;
+			remoteInfo = SwiftQRScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D462513CFD96E5653F7DE58C38F963D /* Pods_WengamArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WengamArt.framework; path = "Pods-WengamArt.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3277DB962FC5435ABDA103CDDD52B95F /* SquareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SquareView.swift; path = Classes/SquareView.swift; sourceTree = "<group>"; };
+		3FCCD7FDCD98F5136097DEFE15E2253C /* SwiftQRScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftQRScanner-dummy.m"; sourceTree = "<group>"; };
+		42983FD6161633B22A51F2E293609753 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		434948EC579BCEA3B01149C9E88C1A13 /* Pods-WengamArt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WengamArt-acknowledgements.plist"; sourceTree = "<group>"; };
+		44C70201D8A4A16BE336DB378AE32DB2 /* SwiftQRScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftQRScanner-prefix.pch"; sourceTree = "<group>"; };
+		4A1658F269047A09B4992389BDAE932F /* Pods-WengamArt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WengamArt-dummy.m"; sourceTree = "<group>"; };
+		6C3091109698AA82EBCD0856BE9BF963 /* ResourceBundle-SwiftQRScanner-SwiftQRScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftQRScanner-SwiftQRScanner-Info.plist"; sourceTree = "<group>"; };
+		71132E695B3259B399E8529F13C85212 /* Pods-WengamArt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WengamArt-umbrella.h"; sourceTree = "<group>"; };
+		7FF29FCEF7D43B8EE06485A710BE5799 /* Pods-WengamArt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WengamArt-frameworks.sh"; sourceTree = "<group>"; };
+		8AF898B42BBAB5B3B16B926A29CDC9A6 /* Pods-WengamArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WengamArt.release.xcconfig"; sourceTree = "<group>"; };
+		8B7FE932D0D812C9272EFF84FD92D3C2 /* SwiftQRScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftQRScanner-umbrella.h"; sourceTree = "<group>"; };
+		8DD992D4D829B01BDDD2E497A0E3D953 /* Pods-WengamArt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WengamArt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		920BB2E2B772D5A8DA15A5E82113DECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9A6CF71F445F725D1EF7B9F53860804F /* Pods-WengamArt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WengamArt-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F621E1346C18D4700AC5CD8853419FD /* SwiftQRScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftQRScanner.modulemap; sourceTree = "<group>"; };
+		BBCA0908BC41781B00F2D2055D5D6904 /* Pods-WengamArt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WengamArt.modulemap"; sourceTree = "<group>"; };
+		C9E2A94A4965418C290F6E712F48B9BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftQRScanner.bundle; path = "SwiftQRScanner-SwiftQRScanner.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B0370C0172CADE12120E24C25922D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E1E0B6205CF8D4456EBEDB1C7E4FEBBD /* SwiftQRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftQRScanner.release.xcconfig; sourceTree = "<group>"; };
+		E742314C0386B3FA5F1B27C2248F9570 /* SwiftQRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftQRScanner.debug.xcconfig; sourceTree = "<group>"; };
+		EB7B726A93D2508CCE70B426A5361C41 /* SwiftQRScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftQRScanner-Info.plist"; sourceTree = "<group>"; };
+		ECAEB0CE9D44C176AF52CC3304F269C6 /* SwiftQRScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftQRScanner.swift; path = Classes/SwiftQRScanner.swift; sourceTree = "<group>"; };
+		F3AB57AE23212B809CB3E8A5D8C940B8 /* Pods-WengamArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WengamArt.debug.xcconfig"; sourceTree = "<group>"; };
+		F562FAF316F5CCDE21F64621E44F5F18 /* SwiftQRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftQRScanner.framework; path = SwiftQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C5CEA945BB0C07336DB21C60BAF5639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08A038A6038766A1D4BC6096AE0C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EAA7891EB1716A3A9F01DA6C149DD8 /* AVFoundation.framework in Frameworks */,
+				1DF7DE4630CB82E49DF3ED4B5A281DD5 /* CoreGraphics.framework in Frameworks */,
+				F62F8AE734211DD4AF78CDD507C3465C /* Foundation.framework in Frameworks */,
+				A3358E096EDECAC43BEABF7440732E9C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21E4B719EA660A1C44D774F87C23441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBBE7F674286F4AA1A5DF80E4F19F3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B58979B1F67F8FA1988FB7137E583E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D462513CFD96E5653F7DE58C38F963D /* Pods_WengamArt.framework */,
+				CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner.bundle */,
+				F562FAF316F5CCDE21F64621E44F5F18 /* SwiftQRScanner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A70EF2BFEAF2B1711C5835F8569D04B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C3091109698AA82EBCD0856BE9BF963 /* ResourceBundle-SwiftQRScanner-SwiftQRScanner-Info.plist */,
+				9F621E1346C18D4700AC5CD8853419FD /* SwiftQRScanner.modulemap */,
+				3FCCD7FDCD98F5136097DEFE15E2253C /* SwiftQRScanner-dummy.m */,
+				EB7B726A93D2508CCE70B426A5361C41 /* SwiftQRScanner-Info.plist */,
+				44C70201D8A4A16BE336DB378AE32DB2 /* SwiftQRScanner-prefix.pch */,
+				8B7FE932D0D812C9272EFF84FD92D3C2 /* SwiftQRScanner-umbrella.h */,
+				E742314C0386B3FA5F1B27C2248F9570 /* SwiftQRScanner.debug.xcconfig */,
+				E1E0B6205CF8D4456EBEDB1C7E4FEBBD /* SwiftQRScanner.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftQRScanner";
+			sourceTree = "<group>";
+		};
+		73A70A821705B0828298242D7D563D95 /* Pods-WengamArt */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA0908BC41781B00F2D2055D5D6904 /* Pods-WengamArt.modulemap */,
+				8DD992D4D829B01BDDD2E497A0E3D953 /* Pods-WengamArt-acknowledgements.markdown */,
+				434948EC579BCEA3B01149C9E88C1A13 /* Pods-WengamArt-acknowledgements.plist */,
+				4A1658F269047A09B4992389BDAE932F /* Pods-WengamArt-dummy.m */,
+				7FF29FCEF7D43B8EE06485A710BE5799 /* Pods-WengamArt-frameworks.sh */,
+				9A6CF71F445F725D1EF7B9F53860804F /* Pods-WengamArt-Info.plist */,
+				71132E695B3259B399E8529F13C85212 /* Pods-WengamArt-umbrella.h */,
+				F3AB57AE23212B809CB3E8A5D8C940B8 /* Pods-WengamArt.debug.xcconfig */,
+				8AF898B42BBAB5B3B16B926A29CDC9A6 /* Pods-WengamArt.release.xcconfig */,
+			);
+			name = "Pods-WengamArt";
+			path = "Target Support Files/Pods-WengamArt";
+			sourceTree = "<group>";
+		};
+		84DA90ACEFE190495FB77D754D0C017E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73A70A821705B0828298242D7D563D95 /* Pods-WengamArt */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B708E3DC3F8B2C4CB1121A802EDAB0AA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				42983FD6161633B22A51F2E293609753 /* AVFoundation.framework */,
+				E1B0370C0172CADE12120E24C25922D2 /* CoreGraphics.framework */,
+				C9E2A94A4965418C290F6E712F48B9BB /* Foundation.framework */,
+				920BB2E2B772D5A8DA15A5E82113DECE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B708E3DC3F8B2C4CB1121A802EDAB0AA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBC9A65D926B7FC8B7F89246AFD3C4C2 /* SwiftQRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				3277DB962FC5435ABDA103CDDD52B95F /* SquareView.swift */,
+				ECAEB0CE9D44C176AF52CC3304F269C6 /* SwiftQRScanner.swift */,
+				6A70EF2BFEAF2B1711C5835F8569D04B /* Support Files */,
+			);
+			name = SwiftQRScanner;
+			path = SwiftQRScanner;
+			sourceTree = "<group>";
+		};
+		CA9AC2621B4908237EDCC3953B9BC12B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBC9A65D926B7FC8B7F89246AFD3C4C2 /* SwiftQRScanner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				CA9AC2621B4908237EDCC3953B9BC12B /* Pods */,
+				4B58979B1F67F8FA1988FB7137E583E4 /* Products */,
+				84DA90ACEFE190495FB77D754D0C017E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6846FA75D389EE9ED1C6B6DA0FCA45E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C1AD826457D518FAF99CA44562A6CE /* Pods-WengamArt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDAE2C3C9B801B8584A4F691C2E4BA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FC0820E829908E6B267024EEF8BE36 /* SwiftQRScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09AD09335955FA1C740D6F0CDDE8C8DA /* SwiftQRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D475441438DF8595EF1B69608787A31 /* Build configuration list for PBXNativeTarget "SwiftQRScanner" */;
+			buildPhases = (
+				EFDAE2C3C9B801B8584A4F691C2E4BA8 /* Headers */,
+				5328267CE74667F8866FBEF50F12F999 /* Sources */,
+				9D08A038A6038766A1D4BC6096AE0C6E /* Frameworks */,
+				BBCF60D37A86C0F08B04D1E128E71B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD81204FC0F2E6D0E9DF7664934128E /* PBXTargetDependency */,
+			);
+			name = SwiftQRScanner;
+			productName = SwiftQRScanner;
+			productReference = F562FAF316F5CCDE21F64621E44F5F18 /* SwiftQRScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27C4D2DDA0609C77013C8347B70AD759 /* Pods-WengamArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F999337A598FF02D78F0D66A3FDB99CB /* Build configuration list for PBXNativeTarget "Pods-WengamArt" */;
+			buildPhases = (
+				A6846FA75D389EE9ED1C6B6DA0FCA45E /* Headers */,
+				BA6631D59BD341858545E569F301640E /* Sources */,
+				D21E4B719EA660A1C44D774F87C23441 /* Frameworks */,
+				FFB66F3C199169F24B6FCD7EA610B9F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0462DCEAB8FFB54CFFDB929937BDC57E /* PBXTargetDependency */,
+			);
+			name = "Pods-WengamArt";
+			productName = "Pods-WengamArt";
+			productReference = 1D462513CFD96E5653F7DE58C38F963D /* Pods_WengamArt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0DB8DEC07098E61E5DCC8EB28AEC2D7 /* SwiftQRScanner-SwiftQRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511D21584643B5C9CF860EF1B375BA98 /* Build configuration list for PBXNativeTarget "SwiftQRScanner-SwiftQRScanner" */;
+			buildPhases = (
+				DC6583E7B34E9762E318C35EF7C2A6B2 /* Sources */,
+				8C5CEA945BB0C07336DB21C60BAF5639 /* Frameworks */,
+				7B3B2800E358B12941A0776C9CD6C00F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftQRScanner-SwiftQRScanner";
+			productName = "SwiftQRScanner-SwiftQRScanner";
+			productReference = CAE154287A9089565EACD616B19C2478 /* SwiftQRScanner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4B58979B1F67F8FA1988FB7137E583E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C4D2DDA0609C77013C8347B70AD759 /* Pods-WengamArt */,
+				09AD09335955FA1C740D6F0CDDE8C8DA /* SwiftQRScanner */,
+				B0DB8DEC07098E61E5DCC8EB28AEC2D7 /* SwiftQRScanner-SwiftQRScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B3B2800E358B12941A0776C9CD6C00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCF60D37A86C0F08B04D1E128E71B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6160C4F277BB6E1DEE4EC488BFE94638 /* SwiftQRScanner.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB66F3C199169F24B6FCD7EA610B9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5328267CE74667F8866FBEF50F12F999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030B5C626FC4894A11E2FAB719D638F2 /* SquareView.swift in Sources */,
+				05F8B6B49DEE30B16EC160E538E64D97 /* SwiftQRScanner-dummy.m in Sources */,
+				5A752B17F5CFFB70C8732E52CD8A7B93 /* SwiftQRScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6631D59BD341858545E569F301640E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E1423A1D7D6A86A1CAD888EFBAF730 /* Pods-WengamArt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6583E7B34E9762E318C35EF7C2A6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0462DCEAB8FFB54CFFDB929937BDC57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftQRScanner;
+			target = 09AD09335955FA1C740D6F0CDDE8C8DA /* SwiftQRScanner */;
+			targetProxy = D906D2BCF330B6A27577AD8A0E486A07 /* PBXContainerItemProxy */;
+		};
+		0AD81204FC0F2E6D0E9DF7664934128E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftQRScanner-SwiftQRScanner";
+			target = B0DB8DEC07098E61E5DCC8EB28AEC2D7 /* SwiftQRScanner-SwiftQRScanner */;
+			targetProxy = 4975BC01DD0B0731567CF10DB114E450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30DB433AB1AC5603210054386A2E661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AB57AE23212B809CB3E8A5D8C940B8 /* Pods-WengamArt.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WengamArt/Pods-WengamArt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WengamArt/Pods-WengamArt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41BD9D6C9DC401274C9AB2FDB62B4D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF898B42BBAB5B3B16B926A29CDC9A6 /* Pods-WengamArt.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WengamArt/Pods-WengamArt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WengamArt/Pods-WengamArt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C2341293B4E3349F0028F3116787410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E0B6205CF8D4456EBEDB1C7E4FEBBD /* SwiftQRScanner.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftQRScanner/SwiftQRScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftQRScanner/SwiftQRScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftQRScanner/SwiftQRScanner.modulemap";
+				PRODUCT_MODULE_NAME = SwiftQRScanner;
+				PRODUCT_NAME = SwiftQRScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B115FA64E2246981BDB2D4FF85F5D59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E0B6205CF8D4456EBEDB1C7E4FEBBD /* SwiftQRScanner.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftQRScanner";
+				IBSC_MODULE = SwiftQRScanner;
+				INFOPLIST_FILE = "Target Support Files/SwiftQRScanner/ResourceBundle-SwiftQRScanner-SwiftQRScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SwiftQRScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C291310F5CD767ABA357C000BE56F896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E742314C0386B3FA5F1B27C2248F9570 /* SwiftQRScanner.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftQRScanner/SwiftQRScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftQRScanner/SwiftQRScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftQRScanner/SwiftQRScanner.modulemap";
+				PRODUCT_MODULE_NAME = SwiftQRScanner;
+				PRODUCT_NAME = SwiftQRScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3EF4E333EE41DCA34B9C6C2EE1CD69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E742314C0386B3FA5F1B27C2248F9570 /* SwiftQRScanner.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftQRScanner";
+				IBSC_MODULE = SwiftQRScanner;
+				INFOPLIST_FILE = "Target Support Files/SwiftQRScanner/ResourceBundle-SwiftQRScanner-SwiftQRScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SwiftQRScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D475441438DF8595EF1B69608787A31 /* Build configuration list for PBXNativeTarget "SwiftQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C291310F5CD767ABA357C000BE56F896 /* Debug */,
+				5C2341293B4E3349F0028F3116787410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511D21584643B5C9CF860EF1B375BA98 /* Build configuration list for PBXNativeTarget "SwiftQRScanner-SwiftQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EF4E333EE41DCA34B9C6C2EE1CD69C /* Debug */,
+				B115FA64E2246981BDB2D4FF85F5D59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F999337A598FF02D78F0D66A3FDB99CB /* Build configuration list for PBXNativeTarget "Pods-WengamArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DB433AB1AC5603210054386A2E661A /* Debug */,
+				41BD9D6C9DC401274C9AB2FDB62B4D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
