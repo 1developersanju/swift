@@ -39,6 +39,7 @@ extension DatabaseManager{
         database.child(user.safeEmail ).setValue([
             "first_name": user.firstName,
             "last_name": user.lastName,
+            
         ])
     }
 }
